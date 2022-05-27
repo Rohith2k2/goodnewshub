@@ -126,15 +126,12 @@ class _ButterflyState extends State<Butterfly> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Butterfly Video'),
-      ),
       body: FutureBuilder(
         future: _initializeVideoPlayerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             return AspectRatio(
-              aspectRatio: 9/16,
+              aspectRatio: 9/18,
               child: VideoPlayer(_controller),
             );
           } else {
@@ -194,15 +191,12 @@ class _BunnyState extends State<Bunny> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Bunny Video'),
-      ),
       body: FutureBuilder(
         future: _initializeVideoPlayerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             return AspectRatio(
-              aspectRatio: 9/16,
+              aspectRatio: 9/18,
               child: VideoPlayer(_controller),
             );
           } else {
@@ -262,15 +256,12 @@ class _ElephantState extends State<Elephant> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Elephants dream Video'),
-      ),
       body: FutureBuilder(
         future: _initializeVideoPlayerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             return AspectRatio(
-              aspectRatio: 9/16,
+              aspectRatio: 9/18,
               child: VideoPlayer(_controller),
             );
           } else {
@@ -330,15 +321,12 @@ class _BlazesState extends State<Blazes> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Blazes Video'),
-      ),
       body: FutureBuilder(
         future: _initializeVideoPlayerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             return AspectRatio(
-              aspectRatio: 9/16,
+              aspectRatio: 9/18,
               child: VideoPlayer(_controller),
             );
           } else {
@@ -398,15 +386,12 @@ class _EscapesState extends State<Escapes> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Escapes Video'),
-      ),
       body: FutureBuilder(
         future: _initializeVideoPlayerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             return AspectRatio(
-              aspectRatio: 9/16,
+              aspectRatio: 9/18,
               child: VideoPlayer(_controller),
             );
           } else {
@@ -466,15 +451,12 @@ class _BuckyBunnyState extends State<BuckyBunny> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('BuckyBunny Video'),
-      ),
       body: FutureBuilder(
         future: _initializeVideoPlayerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             return AspectRatio(
-              aspectRatio: 9/16,
+              aspectRatio: 9/18,
               child: VideoPlayer(_controller),
             );
           } else {
@@ -534,15 +516,12 @@ class _FunState extends State<Fun> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Fun Video'),
-      ),
       body: FutureBuilder(
         future: _initializeVideoPlayerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             return AspectRatio(
-              aspectRatio: 9/16,
+              aspectRatio: 9/18,
               child: VideoPlayer(_controller),
             );
           } else {
@@ -602,15 +581,12 @@ class _JoyRidesState extends State<JoyRides> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: const Text('Joyrides Video'),
-      ),
       body: FutureBuilder(
         future: _initializeVideoPlayerFuture,
         builder: (context, snapshot) {
           if (snapshot.connectionState == ConnectionState.done) {
             return AspectRatio(
-              aspectRatio: 9/16,
+              aspectRatio: 9/18,
               child: VideoPlayer(_controller),
             );
           } else {
